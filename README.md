@@ -16,5 +16,5 @@ This repository contains the source code for an advanced bookstore inventory sys
 - **Testing**: Write comprehensive unit tests using JUnit and Mockito.
 - **CI/CD**: Implement CI/CD pipelines for automated build, test, and deployment processes.
 
-## Setup Instructions
+<!--## Setup Instructions
 
