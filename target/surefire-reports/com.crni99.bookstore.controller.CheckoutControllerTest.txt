@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.crni99.bookstore.controller.CheckoutControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.069 s <<< FAILURE! - in com.crni99.bookstore.controller.CheckoutControllerTest
+shouldPlaceOrder  Time elapsed: 0.034 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+emailService.sendEmail(
+    "mail@example.com",
+    "bookstore - Order Confirmation",
+    "Your order has been confirmed."
+);
+-> at com.crni99.bookstore.controller.CheckoutControllerTest.shouldPlaceOrder(CheckoutControllerTest.java:95)
+Actually, there were zero interactions with this mock.
+
+	at com.crni99.bookstore.controller.CheckoutControllerTest.shouldPlaceOrder(CheckoutControllerTest.java:95)
+
