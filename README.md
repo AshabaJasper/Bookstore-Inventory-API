@@ -1,4 +1,4 @@
-# Advanced Bookstore Inventory System
+# Advanced Bookstore Inventory System (API)
 
 Welcome to the Advanced Bookstore Inventory System! This project focuses on developing a robust API for managing books, authors, categories, and orders using Spring Boot. The system adheres to modern software construction principles and practices, emphasizing clean code, modularity, SOLID principles, and comprehensive API documentation.
 
